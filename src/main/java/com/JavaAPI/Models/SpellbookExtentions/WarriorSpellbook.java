@@ -9,9 +9,13 @@ import java.util.ArrayList;
 
 public class WarriorSpellbook extends Spellbook {
 
-    public WarriorSpellbook(Spellbook spellbook, Character character){
+    public WarriorSpellbook(){
+
+    }
+
+    public WarriorSpellbook(Character character){
         super(character.id, character.inGameClass);
-        spellbook.spells = generateSpells(character.level);
+        this.spells = generateSpells(character.level);
     }
 
     private ArrayList<Spell> generateSpells(int level){
