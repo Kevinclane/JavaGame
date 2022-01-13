@@ -9,6 +9,10 @@ public class Spell {
     public String description;
     public String name;
 
+
+
+
+
     public Spell(int level, int damage, int manaCost, String element, boolean combatOnly, String description, String name) {
         this.level = level;
         this.damage = damage;

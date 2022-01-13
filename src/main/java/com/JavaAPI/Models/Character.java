@@ -35,7 +35,7 @@ public class Character {
 
     }
 
-    public Character(String name, String inGameClass, int health, int mana, int strength, int agility, int intellect, int wisdom, Boolean friendly, int level, String spellbookId, Spellbook spellbook) {
+    public Character(String name, String inGameClass, int health, int mana, int strength, int agility, int intellect, int wisdom, Boolean friendly, int level, Spellbook spellbook) {
         this.name = name;
         this.inGameClass = inGameClass;
         this.health = health;
@@ -46,7 +46,6 @@ public class Character {
         this.wisdom = wisdom;
         this.friendly = friendly;
         this.level = level;
-        this.spellbookId = spellbookId;
         this.spellbook = spellbook;
     }
 
